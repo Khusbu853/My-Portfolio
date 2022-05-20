@@ -9,10 +9,8 @@
 body {
   
   
-  /* background: url("https://cdn.glitch.com/6ae7a7fc-8884-4ea6-827b-8a1edaa47a61%2Fteahub.io-gradient-wallpaper-hd-2761495.png?v=1622863266753") no-repeat center center fixed;  */
   background: url("https://img.wallpapersafari.com/desktop/1920/1080/64/41/R7WJ6i.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
-  /* backdrop-filter: blur(5px); */
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -68,7 +66,7 @@ footer {
 section .title {
   position: relative;
   text-align: center;
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
@@ -79,7 +77,7 @@ section .title::before {
   position: absolute;
   bottom: 0px;
   left: 50%;
-  width: 150px;
+  width: 180px;
   height: 3px;
   background: #111;
   transform: translateX(-50%);
@@ -99,7 +97,7 @@ section .title::after {
   position: fixed;
   width: 100%;
   z-index: 999;
-  padding: 20px 0;
+  padding: 30px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
@@ -114,7 +112,7 @@ section .title::after {
 }
 .navbar .logo a {
   color: #fff;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 600;
 }
 .navbar .logo a span {
@@ -131,9 +129,9 @@ section .title::after {
 .navbar .menu li a {
   display: block;
   color: #fff;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 500;
-  margin-left: 15px;
+  margin-left: 25px;
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover {
@@ -191,109 +189,91 @@ section .title::after {
   margin: auto 0 auto 30px;
 }
 .home .home-content .text-1 {
-  font-size: 20px;
+  font-size: 27px;
 }
 .home .home-content .text-2 {
-  font-size: 45px;
+  font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
 }
 .home .home-content .text-3 {
-  font-size: 25px;
-  
+  font-size: 40px;
+  margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  /* color: rgb(67, 220, 20); */
-  color: rgb(20, 53, 220);
+  color: rgb(20, 47, 220);
   font-weight: 500;
 }
 .home .home-content a {
   display: inline-block;
-  background: rgb(173, 20, 220);
+  background: rgb(213, 20, 220);
   color: #fff;
-  font-size: 15px;
-  padding: 8px 32px;
-  margin-top: 15px;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid rgb(220, 20, 217);
+  border: 2px solid rgb(220, 20, 213);
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: rgb(197, 20, 220);
+  color: rgb(210, 20, 220);
   background: none;
 }
 
-/* .about .title::after {
-  content: "who i am";
-} */
+
 .about .about-content .left {
   width: 45%;
 }
 .about .about-content .left img {
-  /* height: 200px;
-  width: 200px; */
+  height: 400px;
+  width: 400px;
   object-fit: cover;
   border-radius: 6px;
-  margin-left: 50px;
-  
 }
 .about .about-content .right {
   width: 55%;
 }
 .about .about-content .right .text {
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 600;
   margin-bottom: 10px;
 }
 .about .about-content .right .text span {
-  color: rgb(20, 23, 220);
+  color: rgb(20, 53, 220);
 }
 .about .about-content .right p {
   text-align: justify;
-  font-size: 13px;
-  font-weight: 300;
 }
 .about .about-content .right a {
   display: inline-block;
-  background: rgb(173, 20, 220);
+  background: rgb(197, 20, 220);
   color: #fff;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
-  padding: 8px 30px;
+  padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid rgb(220, 20, 217);
+  border: 2px solid rgb(210, 20, 220);
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color: rgb(220, 20, 217);
+  color: rgb(157, 20, 220);
   background: none;
 }
 
-/* .education .title::after {
-  background: #111;
-  content: "my-education";
-} */
+
 .education .serv-content .card {
-  
-  width: 28%;
+  width: calc(33% - 20px);
   background-color: white;
   text-align: center;
   border-radius: 6px;
-  padding: 15px 0px;
+  padding: 20px 3px;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin: 0px 2px;
-  
 }
-
-
-
-
-
 .education .serv-content .card:hover {
-  background: rgb(217, 20, 220);
+  background: rgb(144, 40, 185);
 }
 .education .serv-content .card .box {
   transition: all 0.3s ease;
@@ -302,29 +282,23 @@ section .title::after {
   transform: scale(1.05);
 }
 .education .serv-content .card i {
-  font-size: 20px;
-  color: rgb(220, 20, 210);
+  font-size: 50px;
+  color: rgb(203, 20, 220);
   transition: color 0.3s ease;
 }
 .education .serv-content .card:hover i {
   color: #fff;
 }
 .education .serv-content .card .text {
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 500;
-  margin: 5px 0 7px 0;
-}
-.education .serv-content .card p {
-  font-size: 10px;
-  font-weight: 400;
-  padding: 3px 5px;
-  /* margin: 10px 0 7px 0; */
+  margin: 10px 0 7px 0;
 }
 
 .experience,
 .achievements {
   color: #fff;
-  background: rgb(9, 9, 9);
+  background: #111;
 }
 .experience .title::before,
 .achievements .title::before,
@@ -335,17 +309,16 @@ section .title::after {
 
 
 .experience .serv-content .card {
-  width: calc(30% - 5px);
-  /* width: 20%; */
+  width: calc(33% - 20px);
   background: #222;
   text-align: center;
   border-radius: 6px;
-  padding: 10px 25px;
+  padding: 20px 25px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .experience .serv-content .card:hover {
-  background: rgb(104, 36, 94);
+  background: rgb(130, 34, 179);
 }
 .experience .serv-content .card .box {
   transition: all 0.3s ease;
@@ -354,23 +327,17 @@ section .title::after {
   transform: scale(1.05);
 }
 .experience .serv-content .card i {
-  font-size: 23px;
-  color: rgb(220, 20, 213);
+  font-size: 50px;
+  color: rgb(193, 20, 220);
   transition: color 0.3s ease;
 }
 .experience .serv-content .card:hover i {
   color: #fff;
 }
 .experience .serv-content .card .text {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 500;
-  margin: 5px 0px 3px 0px;
-}
-
-.experience .serv-content .card p {
-  font-size: 11px;
-  /* font-weight: 500; */
-  
+  margin: 10px 0px 7px 0px;
 }
 
 
@@ -378,28 +345,27 @@ section .title::after {
   width: calc(50% - 30px);
 }
 .skills .skills-content .left .text {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 .skills .skills-content .left p {
   text-align: justify;
-  font-size: 11px;
 }
 .skills .skills-content .left a {
   display: inline-block;
-  background: rgb(217, 20, 220);
+  background: rgb(170, 20, 220);
   color: #fff;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 500;
-  padding: 5px 13px;
+  padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid rgb(207, 20, 220);
+  border: 2px solid rgb(170, 20, 220);
   transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-  color: rgb(213, 20, 220);
+  color: rgb(163, 20, 220);
   background: none;
 }
 .skills .skills-content .right .bars {
@@ -413,7 +379,7 @@ section .title::after {
 }
 .skills .skills-content .right span {
   font-weight: 500;
-  font-size: 13px;
+  font-size: 18px;
 }
 .skills .skills-content .right .line {
   height: 5px;
@@ -427,7 +393,7 @@ section .title::after {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgb(105, 31, 115);
+  background: rgb(138, 38, 161);
 }
 .skills-content .right .html::before {
   width: 90%;
@@ -449,13 +415,13 @@ section .title::after {
 .achievements .carousel .card {
   background: #222;
   border-radius: 6px;
-  padding: 5px 10px;
-  text-align: inherit;
+  padding: 25px 35px;
+  text-align: center;
   overflow: hidden;
   transition: all 0.3s ease;
 }
 .achievements .carousel .card:hover {
-  background: rgb(113, 32, 123);
+  background: rgb(142, 37, 165);
 }
 .achievements .carousel .card .box {
   display: flex;
@@ -468,23 +434,16 @@ section .title::after {
   transform: scale(1.05);
 }
 .achievements .carousel .card .text {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
-
-.achievements .carousel .card p {
-  font-size: 10px;
-  
-}
-
-
 .achievements .carousel .card img {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid rgb(213, 20, 220);
+  border: 5px solid rgb(167, 20, 220);
   transition: all 0.3s ease;
 }
 .achievements .carousel .card:hover img {
@@ -500,7 +459,7 @@ section .title::after {
   margin: 0 5px;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid rgb(210, 20, 220) !important;
+  border: 2px solid rgb(213, 20, 220) !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active {
@@ -514,8 +473,8 @@ section .title::after {
 
 .contact {
   background-color: #111;
-  
 }
+
 
 .projects {
   flex-direction: column;
@@ -525,16 +484,12 @@ section .title::after {
 
 footer {
   background: #111;
-  padding: 10px 10px;
+  padding: 15px 23px;
   color: #fff;
   text-align: center;
 }
-
-footer p{
-  font-size: 10px;
-}
 footer span a {
-  color: rgb(180, 20, 220);
+  color: rgb(220, 20, 207);
   text-decoration: none;
 }
 footer span a:hover {
